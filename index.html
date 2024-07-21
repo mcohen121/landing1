@@ -1,0 +1,252 @@
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./styles/output.css" />
+      <title>Drikas Doces</title>
+      </head>
+      <body>
+        
+        <!--start header-->    
+          <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+            <div class="w-full h-full flex flex-col justify-center items-center">
+                <img 
+                      src="./assets/bg1.png" alt="logo"
+                      class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+                />
+                <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Drikas Doces</h1>
+
+                <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+                  <span class="text-white font-medium">Monday - Sartuday - 08 am to 16 pm</span>
+                </div>
+            </div>
+          </header>
+        <!--end header-->
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+          Conheca nossos cake.
+        </h2>
+
+          <!--start menu-->
+          <div id="menu">
+
+          <main class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+                <div class="flex gap-2"><!--produts items 1-->
+                      <img 
+                      src="assets/drikas23.svg" alt="cake1"
+                      class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" 
+                      /> 
+
+                      <div>
+                        <p class="font-bold">Cake Beca</p>
+                        <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.totam.</p>
+
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                          <p class="font-bold text-lg">G$210</p>
+                          <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                          data-name="cake beca"
+                          data-price="210"
+                          >
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                          </button>
+                        </div>
+
+                      </div>
+
+                  </div><!--end produts 1-->
+
+
+                  <div class="flex gap-2"><!--produts items 2-->
+                    <img src="assets/drikas24.svg" alt="cake1"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" 
+                    /> 
+
+                    <div>
+                      <p class="font-bold">Cake Beca</p>
+                      <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.totam.</p>
+
+                      <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">G$220</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="cake kel"
+                        data-price="220"
+                        >
+                          <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                      </div>
+
+                    </div>
+
+                </div><!--end produts 2-->
+
+
+                <div class="flex gap-2"><!--produts items 3-->
+                  <img src="assets/drikas23.svg" alt="cake1"
+                  class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" 
+                  /> 
+
+                  <div>
+                    <p class="font-bold">Cake Beca</p>
+                    <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.totam.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                      <p class="font-bold text-lg">G$230</p>
+                      <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                      data-name="cake nene"
+                      data-price="230"
+                      >
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                      </button>
+                    </div>
+
+                  </div>
+
+              </div><!--end produts 3-->
+
+
+              <div class="flex gap-2"><!--produts items 4-->
+                <img src="assets/hamb-3.png" alt="cake1"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" 
+                /> 
+
+                <div>
+                  <p class="font-bold">Cake Beca</p>
+                  <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.totam.</p>
+
+                  <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">G$240</p>
+                    <button 
+                    class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="cake drika"
+                    data-price="240"
+                    >
+                      <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                  </div>
+
+                </div>
+
+            </div><!--end produts 4-->
+
+         </main>
+
+  <div class="mx-auto max-w-7xl px-2 my-2">
+    <h2 class="font-bold text-3xl text-center">
+      Brigadeiros
+    </h2>
+  </div>
+
+  <!--Grid beverages-->
+  <div class="grid grid-cols-1 md:grid-cols-2  gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+ 
+<!--end grid beverages-->
+<div class="flex gap-2 "><!--produts items 1-->
+  <img src="assets/refri-1.png" alt="coke1"
+  class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" 
+  /> 
+
+  <div class="w-full">
+    <p class="font-bold">Coke</p>
+    
+
+    <div class="flex items-center gap-2 justify-between mt-3">
+      <p class="font-bold text-lg">G$190</p>
+      <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+      data-name="Coke"
+      data-price="190"
+      >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+      </button>
+    </div>
+
+  </div>
+
+</div><!--end beverages-->
+
+<div class="flex gap-2 "><!--produts items 2-->
+  <img src="assets/refri-2.png" alt="coke2"
+  class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" 
+  /> 
+
+  <div class="w-full">
+    <p class="font-bold">Antarctica</p>
+    
+
+    <div class="flex items-center gap-2 justify-between mt-3">
+      <p class="font-bold text-lg">G$180</p>
+      <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+      data-name="Coke 2"
+      data-price="180"
+      >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+      </button>
+    </div>
+
+  </div>
+
+</div><!--end item 2-->
+
+</div><!--end beverages-->
+
+ </div><!--end menu-->
+
+<!--modal cart-->
+<div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] flex items-center justify-center"
+id="cart-modal"
+>
+  
+  <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+      <h2 class="text-center font-bold text-2xl mb-2">My cart</h2>
+
+      <div id="cart-items" class="justify-between mb-2 flex-col"></div>
+
+      <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+      <p class="font-bold mt-4"><Address></Address> Delivery</p>
+      <input type="text"
+      placeholder="Type your Address"
+      id="address"
+      class="w-full border-2 p-1 rounded my-1"
+      />
+      <p class="text-red-500 hidden" id="address-warn">Type your addres full</p>
+
+      <div class="flex items-center justify-between my-5">
+        <button id="close-modal-btn">Close</button>
+        <button id="checkout-btn" class="bg-green-500 text-white px-4 rounded">Final Delivery</button>
+      </div>
+  </div>
+</div>
+<!--end cart-->
+
+<!--button cart footer-->
+<footer class="w-full bg-red-500 py-4 fixed bottom-0 z-40 flex items-center justify-center">
+ <button class="flex items-center gap-2 text-white font-bold"
+ id="cart-btn"
+ >
+(<span id="cart-count">0</span>)
+                  See my cart
+                  
+<i class="fa fa-cart-plus text-lg text-white"></i>
+ </button>
+       <div>
+        <p></p>
+       </div>
+</footer>
+<!--end button cart footer-->
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>  
+      <script src="script.js"></script>
+ </body>
+</html>
