@@ -176,7 +176,7 @@ const cartItems = cart.map((item )=>{
 }).join("")
 
 const message = encodeURIComponent(cartItems)
-const phone = "92993492324"
+const phone = "92991200028"
 
 window.open(`https://wa.me/${phone}?text=${message} Address: ${addressInput.value}`,"_blank")
 })
@@ -189,7 +189,10 @@ function checkOpen(){
   const data = new Date()
   const hora = data.getHours()
   return hora >= 8 && hora < 16
-}
+  }
+
+  
+
 
 const spanItem = document.getElementById("date-span")
 const isOpen = checkOpen()
